@@ -21,9 +21,9 @@ export default function Home() {
 
   return (
     <>
-      <main className="flex-grow flex flex-col items-center justify-center gap-8 px-4 md:px-24 pt-28 md:pt-20 bg-white text-gray-900">
+      <main className="flex-grow flex flex-col items-center justify-evenly px-4 md:px-24 pt-28 md:pt-20 bg-white text-gray-900">
         <section className="text-center">
-          <h1 className="text-3xl md:text-5xl font-bold">
+          <h1 className="text-[2rem] leading-[40px] md:text-5xl font-bold">
             Dive into the World of Anonymous Feedback
           </h1>
           <p className="mt-3 md:mt-4 text-base md:text-lg">
@@ -31,7 +31,7 @@ export default function Home() {
           </p>
         </section>
         <Carousel
-          className="w-64 md:w-1/2"
+          className="w-5/6 lg:w-1/2"
           plugins={[
             Autoplay({
               delay: 3000,
